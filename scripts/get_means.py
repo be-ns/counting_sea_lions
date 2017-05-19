@@ -26,5 +26,5 @@ def _get_sums(filename):
     return df.sums.as_matrix(), df.as_matrix()
 
 if __name__ == "__main__":
-    filename = '/Users/benjamin/Desktop/counting_sea_lions/data/Train/train.csv'
+    filename = '..data/Train/train.csv'
     target_val_array, target_matrix = get_values(filename)
